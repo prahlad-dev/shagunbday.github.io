@@ -1,0 +1,20 @@
+{
+  
+  "name": "birthday",
+  "version": "1.0.0",
+  "description": "Birthday greetings..",
+  "main": " ",
+  "scripts": {
+    "start": "node effect.js",
+    "birthday": "build-birthday -c birthday",
+    "deploy":"gh-pages -d birthday",
+    "server-node": "http-server -p 8081"
+  },
+  "keywords": [
+    "Birthday"
+  ],
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  }
+
+}
